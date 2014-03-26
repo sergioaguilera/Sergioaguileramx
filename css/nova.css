@@ -1,0 +1,87 @@
+
+/*Author: Sergio Aguilera - sergio@movimientolibre.com 
+  Github: http://github.com/sergioaguilera
+  Twitter: http://twitter.com/sergioaaguilera
+*/
+
+@font-face{font-family: "metro";
+           src: url(/fonts/segoeui.ttf);}
+
+@font-face{font-family: "nav";
+           src: url(fonts/walkway.ttf);}
+
+@font-face{font-family: "walk";
+           src: url(fonts/LiberationSerif.ttf);}
+li{list-style: none;}
+
+h1,
+h2,
+h3,
+h4{font-family: "metro"; font-weight: bold}
+
+
+ul,
+li{font-family: "metro";}
+
+.navbar-fixed-top{font-family: "metro";  
+                  font-size: 20px;
+                  background-color: #222222;}
+ 
+ul .navlink{color: #fff;}
+
+.footer{ border-bottom: 20px solid #222222;
+        background-color: #222222; 
+        padding-left: 10%; 
+        padding-right: 10%; 
+        color: #ffffff; 
+        font-family: "metro";}
+
+p,
+.btn{text-align: justify;
+  font-family: "metro";}
+
+.btn-sm{color: #fff;
+        background-color: #333333; 
+        margin-top: 30px;
+        }
+
+.btn-sm:hover{color: #fff;
+        background-color: #222222; 
+        margin-top: 30px;}
+
+.btn-contact{color: #fff;
+             background-color: #3498db;}
+
+.btn-contact:hover{color: #fff;
+             background-color: #2980b9;}
+
+.perfil{border-radius: 100%; 
+        margin-top:4%;}
+
+.perfil-texto{color: #fff; font-size: 18px;}
+
+.quote{padding-left: 20px; 
+       font-style: italic;}
+
+.navbar-static-top {margin-bottom: 19px;}
+
+.contenedor{padding-top: 7%;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 4%;}
+
+.card{background-color: #27ae60;
+      padding-bottom: 10px;}
+
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+    -webkit-transition:color 1s ease-in;
+   -moz-transition:color 1s ease-in;
+   -o-transition:color 1s ease-in;
+   transition:color 1s ease-in;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #27ae60;
+}
